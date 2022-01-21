@@ -1,0 +1,424 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+    <head>
+        <meta charset='utf-8'>
+        <title>Bienvenue sur BBLIO</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="liens" >
+                <ul class = "index">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="historique.html">Historique</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="index.html"><h1>Prix annuel Bblio </h1></a>
+            </div>
+            <div class="login">
+                <span><a href="juryProfil.html">Bienvenue, Jury 1970</a></span>
+            </div>
+        </header>
+        <article id="oEc">
+            <section id="repVote">
+                
+                <h2>Resultats des votes en cours</h2>
+                <a href="#lastOne"><p id="linkBas">bas de page</p></a>
+                <div class="repVoteBis" id="rep1"> 
+                    <h3>Meilleur Style</h3>
+                    <ul>
+                        <li id="style1"></li>
+                        <li id="style2"></li>
+                        <li id="style3"></li>
+                        <li id="style4"></li>
+                    </lu>
+                </div>          
+                <div class="repVoteBis"> 
+                    <h3>Meilleures illustrations</h3>
+                    <ul>
+                        <li id="illu1"></li>
+                        <li id="illu2"></li>
+                        <li id="illu3"></li>
+                        <li id="illu4"></li>
+                    </ul>
+                </div>          
+                <div class="repVoteBis"> 
+                    <h3>Meilleure mise en page</h3>
+                    <ul>
+                        <li id="mEp1"></li>
+                        <li id="mEp2"></li>
+                        <li id="mEp3"></li>
+                        <li id="mEp4"></li>
+                    </ul>
+                </div>          
+                <div class="repVoteBis"> 
+                    <h3>Meilleure Emotion</h3>
+                    <ul>
+                        <li id="emo1"></li>
+                        <li id="emo2"></li>
+                        <li id="emo3"></li>
+                        <li id="emo4"></li>
+                    </ul>
+                </div>  
+            </section>        
+            <h2 class="titreComp">Meilleur Style</h2>
+                <div class = "blocComp">
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3>Français</h3>
+                                <li>
+                                    <label>"L'art de l'ecriture" par Jake Rie Jr</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr">
+                                </li>
+                                <li>
+                                    <label>"L'ennui en lisant" par Page White</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr" >
+                                </li>
+                                <li>
+                                    <label>"Les cris de la nuit" par John Deuf</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr">
+                                </li>        
+                                    
+                            </ul> 
+                            <input id="francais" type="button" value="Valider" name="francais">   
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3>Etranger</h3>
+                                    <li>
+                                        <label>"Hello" par Mike Manaman</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr" >
+                                    </li>
+                                    <li>
+                                        <label>"Goodbye" par Jerry Lewis</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr" >
+                                    </li>
+                                    <li>
+                                        <label>"Harry Doter" par Jk Relou</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr" >
+                                    </li>          
+                             </ul>  
+                            <input id="etranger" type="button" value="Valider" name="etranger">  
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3 class=>Documentaire</h3>
+                                    <li>
+                                        <label>"La vie des vis" par Tom Pahouf</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc">
+                                    </li>
+                                    <li>
+                                        <label>"Station BP" par Sans Plomb 98</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc">
+                                    </li>
+                                    <li>
+                                        <label>"Un cerf ça sert" par J'Eude mot</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc">
+                                    </li>          
+                            </ul>  
+                            <input id="docu" type="button" value="Valider" name="docu">  
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3 class=>Biographie</h3>
+                                <li>
+                                    <label>"Une vie Sans but" par Oliver Kahn</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi" >
+                                </li>
+                                <li>
+                                    <label>"Sans le singe vert" par Sylvain duriff</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi">
+                                </li>
+                                <li>
+                                    <label>"Hasta la Pugnetas" par Oldel Passo</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi">
+                                </li>          
+                            </ul>  
+                            <input id="bio" type="button" value="Valider" name="bio">  
+                        </form>
+                    </section>
+                </div> 
+                <h2 class="titreComp">Meilleures Illustrations</h2>
+                <div class = "blocComp">
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3>Français</h3>
+                                <li>
+                                    <label>"L'art de l'ecriture" par Jake Rie Jr</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr2">
+                                </li>
+                                <li>
+                                    <label>"L'ennui en lisant" par Page White</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr2" >
+                                </li>
+                                <li>
+                                    <label>"Les cris de la nuit" par John Deuf</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr2">
+                                </li>        
+                                    
+                            </ul> 
+                            <input id="francais2" type="button" value="Valider" name="francais">   
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3>Etranger</h3>
+                                    <li>
+                                        <label>"Hello" par Mike Manaman</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr2" >
+                                    </li>
+                                    <li>
+                                        <label>"Goodbye" par Jerry Lewis</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr2" >
+                                    </li>
+                                    <li>
+                                        <label>"Harry Doter" par Jk Relou</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr2" >
+                                    </li>          
+                             </ul>  
+                            <input id="etranger2" type="button" value="Valider" name="etranger">  
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3 class=>Documentaire</h3>
+                                    <li>
+                                        <label>"La vie des vis" par Tom Pahouf</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc2">
+                                    </li>
+                                    <li>
+                                        <label>"Station BP" par Sans Plomb 98</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc2">
+                                    </li>
+                                    <li>
+                                        <label>"Un cerf ça sert" par J'Eude mot</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc2">
+                                    </li>          
+                            </ul>  
+                            <input id="docu2" type="button" value="Valider" name="docu">  
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3 class=>Biographie</h3>
+                                <li>
+                                    <label>"Une vie Sans but" par Oliver Kahn</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi2" >
+                                </li>
+                                <li>
+                                    <label>"Sans le singe vert" par Sylvain duriff</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi2">
+                                </li>
+                                <li>
+                                    <label>"Hasta la Pugnetas" par Oldel Passo</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi2">
+                                </li>          
+                            </ul>  
+                            <input id="bio2" type="button" value="Valider" name="bio">  
+                        </form>
+                    </section>
+                </div> 
+                <h2 class="titreComp">Meilleure Mise en Page</h2>
+                <div class = "blocComp">
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3>Français</h3>
+                                <li>
+                                    <label>"L'art de l'ecriture" par Jake Rie Jr</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr3">
+                                </li>
+                                <li>
+                                    <label>"L'ennui en lisant" par Page White</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr3" >
+                                </li>
+                                <li>
+                                    <label>"Les cris de la nuit" par John Deuf</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr3">
+                                </li>        
+                                    
+                            </ul> 
+                            <input id="francais3" type="button" value="Valider" name="francais">   
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3>Etranger</h3>
+                                    <li>
+                                        <label>"Hello" par Mike Manaman</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr3" >
+                                    </li>
+                                    <li>
+                                        <label>"Goodbye" par Jerry Lewis</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr3" >
+                                    </li>
+                                    <li>
+                                        <label>"Harry Doter" par Jk Relou</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr3" >
+                                    </li>          
+                             </ul>  
+                            <input id="etranger3" type="button" value="Valider" name="etranger">  
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3 class=>Documentaire</h3>
+                                    <li>
+                                        <label>"La vie des vis" par Tom Pahouf</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc3">
+                                    </li>
+                                    <li>
+                                        <label>"Station BP" par Sans Plomb 98</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc3">
+                                    </li>
+                                    <li>
+                                        <label>"Un cerf ça sert" par J'Eude mot</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc3">
+                                    </li>          
+                            </ul>  
+                            <input id="docu3" type="button" value="Valider" name="docu">  
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3 class=>Biographie</h3>
+                                <li>
+                                    <label>"Une vie Sans but" par Oliver Kahn</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi3" >
+                                </li>
+                                <li>
+                                    <label>"Sans le singe vert" par Sylvain duriff</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi3">
+                                </li>
+                                <li>
+                                    <label>"Hasta la Pugnetas" par Oldel Passo</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi3">
+                                </li>          
+                            </ul>  
+                            <input id="bio3" type="button" value="Valider" name="bio">  
+                        </form>
+                    </section>
+                </div>  
+                <h2 class="titreComp">Meilleure Emotion</h2>
+                <div class = "blocComp">
+                    <section id="lastOne"> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3>Français</h3>
+                                <li>
+                                    <label>"L'art de l'ecriture" par Jake Rie Jr</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr4">
+                                </li>
+                                <li>
+                                    <label>"L'ennui en lisant" par Page White</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr4" >
+                                </li>
+                                <li>
+                                    <label>"Les cris de la nuit" par John Deuf</label>
+                                    <input required type="number" min="0" max="9" name="francais" class="fr4">
+                                </li>        
+                                    
+                            </ul> 
+                            <input id="francais4" type="button" value="Valider" name="francais">   
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3>Etranger</h3>
+                                    <li>
+                                        <label>"Hello" par Mike Manaman</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr4" >
+                                    </li>
+                                    <li>
+                                        <label>"Goodbye" par Jerry Lewis</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr4" >
+                                    </li>
+                                    <li>
+                                        <label>"Harry Doter" par Jk Relou</label>
+                                        <input type="number" min="0" max="9" name="etranger" class="etr4" >
+                                    </li>          
+                             </ul>  
+                            <input id="etranger4" type="button" value="Valider" name="etranger">  
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3 class=>Documentaire</h3>
+                                    <li>
+                                        <label>"La vie des vis" par Tom Pahouf</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc4">
+                                    </li>
+                                    <li>
+                                        <label>"Station BP" par Sans Plomb 98</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc4">
+                                    </li>
+                                    <li>
+                                        <label>"Un cerf ça sert" par J'Eude mot</label>
+                                        <input type="number" min="0" max="9" name="docu" class="dc4">
+                                    </li>          
+                            </ul>  
+                            <input id="docu4" type="button" value="Valider" name="docu">  
+                        </form>
+                    </section>
+                    <section> 
+                        <form method="get" class="categories">
+                            <ul class="listJury">
+                                <h3 class=>Biographie</h3>
+                                <li>
+                                    <label>"Une vie Sans but" par Oliver Kahn</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi4" >
+                                </li>
+                                <li>
+                                    <label>"Sans le singe vert" par Sylvain duriff</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi4">
+                                </li>
+                                <li>
+                                    <label>"Hasta la Pugnetas" par Oldel Passo</label>
+                                    <input type="number" min="0" max="9" name="bio" class="bi4">
+                                </li>          
+                            </ul>  
+                            <input id="bio4" type="button" value="Valider" name="bio">  
+                        </form>
+                    </section>
+                </div> 
+            <a href="#repVote">haut de page</a>
+        </article>
+        <footer>
+            <div class="leftFoot">
+                <ul>
+                    <li class="titreList">SOCIETE BBLIO</li>
+                    <li class="contenList">101 Avenue de Paris</li>
+                    <li class="contenList">92700 Courbevoie</li>
+                    
+                </ul>
+            </div>
+            <div class="rightFoot">
+                <ul>
+                    <a href="vousEtes.html"><li class="titreList">NOUS REJOINDRE</li></a>
+                    <a href="https://www.facebook.com/"><img class="icon" src="images/fb1.png" alt="fbLogo"></a>
+                    <a href="https://www.instagram.com/?hl=fr"><img class="icon" src="images/insta1.png" alt="instaLogo"></a>
+                    <a href="https://twitter.com/?lang=fr"><img class="icon" src="images/twitter1.png" alt="twitLogo"></a>
+                    <a href="https://www.youtube.com/"><img class="icon" src="images/yt1.png" alt="ytLogo"></a>
+                </ul>
+            </div>
+        </footer>
+        <script src="jury.js"></script>
+    </body>
+</html>
