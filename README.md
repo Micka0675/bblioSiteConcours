@@ -34,7 +34,7 @@ Le gagnant(s) sera(ont) inscrit(s) automatiquement en haut de page.
 3.UN MOT SUR MON TRAVAIL
 
 Les langages utilisés peuvent etre optimisés davantage, comme le .js (pour le formulaire jury surtout) et j'en ai bien conscience. 
-Ne disposant que d'une semaine, je n'ai pas reussi à le faire dans les temps.
+Ne disposant que d'une semaine pour tout maquetter, rediger et mettre en page, je n'ai pas reussi à le faire dans les temps.
 
 certaines fonctionnalités attendues dans le cahier des charges necessitaient du langage back-end que je n'ai pas encore étudié. 
 J'ai donc du chercher des solutions de contournement.
